@@ -4,3 +4,6 @@ BOT_NAME = 'myscraper'
 
 SPIDER_MODULES = ['myscraper.spiders']
 NEWSPIDER_MODULE = 'myscraper.spiders'
+
+# Change user agent
+# TO FILL
