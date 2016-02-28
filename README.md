@@ -7,12 +7,6 @@ The challenges are [here](https://scraping-challenge.herokuapp.com).
 
 All data are from the Titanic disaster (it reminds you [Kaggle](https://www.kaggle.com/c/titanic) ?)
 
-Challenges are :
-
-1. Extract all persons from one page
-2. Extract all persons from multiple pages (use pagination)
-3. Bypass the user-agent
-
 
 ## How to complete the challenge ?
 
@@ -58,4 +52,3 @@ Exports items are inside the file ```persons.json```.
 ## Licence
 
 See the [Licence](LICENCE.txt).
-
