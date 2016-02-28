@@ -21,4 +21,4 @@ dist
 
 .DS_Store
 
-.json
+*.json
