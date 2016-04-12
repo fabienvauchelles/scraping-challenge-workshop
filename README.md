@@ -10,25 +10,44 @@ All data are from the Titanic disaster (it reminds you [Kaggle](https://www.kagg
 
 ## How to complete the challenge ?
 
-### Step 0: Fill prerequisite
+### Step 1: Fill prerequisite
+
+#### Install Python 2.7
 
 Scrapy works only with Python 2.7.
 
 [Please install Python 2.7, and not Python 3.x!](https://www.python.org/downloads/release/python-2710)
 
+#### Install dependencies
 
-### Step 1: Clone the repository
+On Ubuntu:
+
+```
+apt-get install python-dev libxml2-dev libxslt1-dev libffi-dev
+```
+
+
+On Windows (with [Babun](http://babun.github.io)):
+
+```
+wget https://bootstrap.pypa.io/ez_setup.py -O - | python
+easy_install pip
+pact install libffi-devel libxml2-devel libxslt-devel
+```
+
+
+#### Install Scrapy
+
+```
+pip install scrapy
+```
+
+
+### Step 2: Clone the repository
 
 ```
 git clone https://github.com/fabienvauchelles/scraping-challenge-workshop.git
 cd scraping-challenge-workshop
-```
-
-
-### Step 2: Install all Python dependencies
-
-```
-pip install -r requirements.txt
 ```
 
 
