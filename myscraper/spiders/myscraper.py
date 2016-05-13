@@ -10,10 +10,11 @@ class MyScraper(Spider):
 
     def start_requests(self):
         # Use a loop (for i in range(0, 1))
-        yield Request(
-            url='https://scraping-challenge.herokuapp.com/pagination?page=',
-            callback=self.parse,
-        )
+        for i in range(0, 50):
+            yield Request(
+                url='https://scraping-challenge.herokuapp.com/pagination?page=%d' % i,
+                callback=self.parse,
+            )
 
 
     def parse(self, response):
