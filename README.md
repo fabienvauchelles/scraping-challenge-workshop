@@ -36,6 +36,13 @@ pact install libffi-devel libxml2-devel libxslt-devel
 ```
 
 
+On Mac OS X:
+
+```
+brew install python
+```
+
+
 #### Install Scrapy
 
 ```
