@@ -16,12 +16,12 @@ API_SCRAPOXY = 'http://127.0.0.1:8889/api'
 API_SCRAPOXY_PASSWORD = 'CHANGE_THIS_PASSWORD'
 
 # BLACKLISTING
-BLACKLIST_HTTP_STATUS_CODES = # TO FILL
+BLACKLIST_HTTP_STATUS_CODES = [ 503 ]
 
 DOWNLOADER_MIDDLEWARES = {
     'scrapoxy.downloadmiddlewares.proxy.ProxyMiddleware': 100,
     'scrapoxy.downloadmiddlewares.wait.WaitMiddleware': 101,
     'scrapoxy.downloadmiddlewares.scale.ScaleMiddleware': 102,
     'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware': None,
-    # TO FILL (use the BlacklistDownloaderMiddleware from Scrapoxy SDK)
+    'scrapoxy.downloadmiddlewares.blacklist.BlacklistDownloaderMiddleware': 950,
 }
