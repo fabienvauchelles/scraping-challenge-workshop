@@ -20,10 +20,10 @@ Scrapy works only with Python 2.7.
 
 #### Install dependencies
 
-On Ubuntu:
+On Ubuntu 16:
 
 ```
-apt-get install python-dev libxml2-dev libxslt1-dev libffi-dev
+sudo apt-get install python-dev python-pip libssl-dev libxml2-dev libxslt1-dev libffi-dev
 ```
 
 
@@ -46,7 +46,7 @@ brew install python
 #### Install Scrapy & Scrapoxy SDK
 
 ```
-pip install scrapy scrapoxy
+sudo pip install scrapy scrapoxy
 ```
 
 
