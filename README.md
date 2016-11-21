@@ -27,13 +27,9 @@ sudo apt-get install python-dev python-pip libssl-dev libxml2-dev libxslt1-dev l
 ```
 
 
-On Windows (with [Babun](http://babun.github.io)):
+On Windows:
 
-```
-wget https://bootstrap.pypa.io/ez_setup.py -O - | python
-easy_install pip
-pact install libffi-devel libxml2-devel libxslt-devel
-```
+Download and install [Anaconda Distribution](https://www.continuum.io/downloads) for Python **2.7**.
 
 
 On Mac OS X:
