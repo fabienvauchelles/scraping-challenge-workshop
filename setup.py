@@ -6,5 +6,7 @@ setup(
     name=u'scrapers',
     version=u'1.0',
     packages=find_packages(),
-    install_requires=[]
+    install_requires=[],
+    entry_points = {'scrapy': ['settings = myscraper.settings']}
 )
+
