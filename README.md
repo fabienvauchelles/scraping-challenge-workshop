@@ -39,10 +39,10 @@ brew install python
 ```
 
 
-#### Install Scrapy & Scrapoxy SDK
+#### Install Scrapy, Scrapoxy and ScrapingHub tools
 
 ```
-sudo pip install scrapy scrapoxy
+sudo pip install scrapy scrapoxy shub
 ```
 
 
